@@ -1,0 +1,40 @@
+Client:
+- fordere Liste
+
+Server:
+- Liste zurückschicken
+    Fehler: Liste nicht verfügbar
+        - schicke Fehlermeldung
+
+---
+
+Client:
+- fordere Begriff
+
+Server:
+- Definition zurückschicken
+    Fehler: Definition nicht verfügbar
+        - schicke Fehlermeldung
+        
+---
+
+Client:
+- unbekannter Befehl
+
+Server:
+- Nachricht erhalten, kann nicht ausgeführt werden
+
+---
+
+33200 - 332200
+
+33200 - Server
+33201 - Client
+
+
+---
+
+Rückmeldungen
+- Begriffsliste: "BEGRIFFE:" +
+- Definition: "DEF:" +
+- Fehlermeldung: "ERROR:" +
